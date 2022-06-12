@@ -6,6 +6,7 @@ const { default: mongoose } = require('mongoose')
 const multer = require('multer')
 const app = express()
 
+// this hakrich code
 
 //body-parser config 
 app.use(bodyParser.urlencoded({extended:false})); // app.use(bodyParser.urlencoded()); // x-www-form-urlencoded <form>
